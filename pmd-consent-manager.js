@@ -86,10 +86,10 @@ function pcmInt() {
 	pcmBuildElements(pcmDiv, pcmElements);
 
 	/* CSS */
+	
 	var pcmLink = document.createElement('link');
 	pcmLink.rel = 'stylesheet';
-	pcmLink.type = 'text/css';
-
+	
 	var cssFile = pcmDiv.getAttribute('data-css-file');
 	if (!(cssFile))
 		cssFile = 'https://cdn.jsdelivr.net/gh/protejameusdados/consent-manager@latest/pmd-consent-manager.css';
