@@ -37,7 +37,7 @@ function pcmInt() {
 		return;
 
 	var title = "Aviso de cookies"
-	var text = "Para otimizar sua experiência durante a navegação, fazemos uso de cookies. Ao continuar no site, consideramos que você está de acordo com o uso de cookies durante a navegação.";
+	var text = "Para otimizar sua experi\u00EAncia durante a navega\u00E7\u00E3o, fazemos uso de cookies. Ao continuar no site, consideramos que voc\u00EA est\u00E1 de acordo com o uso de cookies durante a navega\u00E7\u00E3o.";
 
 	const pcmElements = [
 		{
