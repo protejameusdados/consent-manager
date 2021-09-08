@@ -1,0 +1,65 @@
+#pmd-pcm {
+	padding: 8px;
+	color: var(--pmd-color, white);
+	background: var(--pmd-bg-color, #003f56);
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	z-index: 1073741823;
+}
+
+#pmd-pcm .pmd-btn {
+	background: var(--pmd-btn-bg, white) !important;
+	color: var(--pmd-btn-bg, #003f56) !important;
+	text-align: center;
+	display: inline-block;
+	padding: 6px 10px;
+	border-radius: 6px;
+}
+
+#pmd-pcm .pmd-logo {
+	height: 26px;
+	float: right;
+}
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+        height: 0px;
+    }
+}
+
+#pmd-pcm.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+#pmd-pcm.fadeIn {
+    opacity: 0;
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
+
+#pmd-pcm.fadeOut {
+    opacity: 1;
+    animation-name: fadeOut;
+    -webkit-animation-name: fadeOut;
+}
