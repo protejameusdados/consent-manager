@@ -92,7 +92,7 @@ function pcmInt() {
 
 	var cssFile = pcmDiv.getAttribute('data-css-file');
 	if (!(cssFile))
-		cssFile = '/pmd-hub/assets/_/js/pmd-consent-manager.css';
+		cssFile = 'https://cdn.jsdelivr.net/gh/protejameusdados/consent-manager@latest/pmd-consent-manager.css';
 
 	pcmLink.href = cssFile;
 
